@@ -18,7 +18,7 @@ import notepad from "./assets/images/notepad.svg";
 
 /* START HERE - add your GitHub username below
  ************************************************************** */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "finnbergquist";
 
 /* Skills
  ************************************************************** */
@@ -99,7 +99,7 @@ export const projectData = [
 // Share the contact info you are comfortable with (no dashes for phone numbers)
 // If no info provided a button with a link to mailchimp will be rendered, update the link if you want to use this option
 export const contactInfo = {
-  email: "",
-  phone: "",
-  mailChimp: "https://www.mailchimp.com/",
+  email: "fbergqui@bowdoin.edu",
+  phone: "857-200-5274",
+  //mailChimp: "https://www.mailchimp.com/",
 };

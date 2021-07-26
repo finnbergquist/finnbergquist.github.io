@@ -8,11 +8,11 @@ const Footer = ({ githubUrl, link, twitter }) => {
         &copy; Made with <span>♥️</span> by{" "}
         <a
           id="myInfo"
-          href="https://github.com/mshuber1981/github-react-portfolio-template"
+          href="https://github.com/finnbergquist"
           target="_blank"
           rel="noreferrer"
         >
-          Michael Huber
+          Finn Bergquist
         </a>
       </p>
     </footer>

@@ -19,7 +19,7 @@ Add your GitHub username once and all of your info will automatically be updated
 1. Clone/download
 1. Install the dependencies
 
-   - ```bash
+   - ```bashnpm
      npm i
      ```
 
