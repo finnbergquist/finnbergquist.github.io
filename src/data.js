@@ -1,23 +1,18 @@
 // https://react-icons.github.io/react-icons/
 import {
-  FaHtml5,
-  FaCss3Alt,
-  FaSass,
-  FaBootstrap,
   FaReact,
-  FaNpm,
   FaGitAlt,
   FaGithubSquare,
+  FaRaspberryPi
 } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
+import {DiJava, DiPython} from "react-icons/di";
 
 // Projects Images (add your images to the /assets/images directory and import below)
 import colors from "./assets/images/colors.svg";
 import react from "./assets/images/logo.svg";
 import notepad from "./assets/images/notepad.svg";
 
-/* START HERE - add your GitHub username below
- ************************************************************** */
+
 export const githubUsername = "finnbergquist";
 
 /* Skills
@@ -26,49 +21,34 @@ export const githubUsername = "finnbergquist";
 export const skillData = [
   {
     id: 1,
-    skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
+    skill: <DiPython className="display-4" />,
+    name: "Python",
   },
   {
     id: 2,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
+    skill: <DiJava className="display-4" />,
+    name: "Java",
   },
   {
     id: 3,
-    skill: <SiJavascript className="display-4" />,
-    name: "JavaScript",
+    skill: <FaRaspberryPi className="display-4" />,
+    name: "Raspberry Pi",
   },
   {
     id: 4,
-    skill: <FaSass className="display-4" />,
-    name: "Sass",
+    skill: <FaGithubSquare className="display-4" />,
+    name: "GitHub",
   },
   {
     id: 5,
-    skill: <FaBootstrap className="display-4" />,
-    name: "Bootstrap",
-  },
-  {
-    id: 6,
     skill: <FaReact className="display-4" />,
     name: "React",
   },
   {
-    id: 7,
-    skill: <FaNpm className="display-4" />,
-    name: "npm",
-  },
-  {
-    id: 8,
+    id: 6,
     skill: <FaGitAlt className="display-4" />,
     name: "Git",
-  },
-  {
-    id: 9,
-    skill: <FaGithubSquare className="display-4" />,
-    name: "GitHub",
-  },
+  }
 ];
 
 /* Projects

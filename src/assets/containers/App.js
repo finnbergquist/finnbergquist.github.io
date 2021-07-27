@@ -5,7 +5,6 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "./Projects";
 import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -63,11 +62,6 @@ const App = () => {
         <Projects theme={theme} githubUsername={githubUsername} />
         <Contact theme={theme} avatar={homeData.avatar} name={homeData.name} />
       </main>
-      <Footer
-        githubUrl={homeData.githubUrl}
-        link={homeData.link}
-        twitter={homeData.twitter}
-      />
     </>
   );
 };
