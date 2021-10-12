@@ -34,6 +34,16 @@ const About = ({ theme, setTheme, githubUrl, name, link, bio, twitter }) => {
           <FaChevronCircleDown id="scroll-down" />
         </Link>
       </div>
+
+      <div>
+      I am a Physics and Computer Science double major at
+      Bowdoin College from Boston, MA. I love to work on
+      long term projects, and I have experience working 
+      by myself and on teams with more than 30 people 
+      involved. I can appreciate having total control and 
+      making my own critical decisions or collaborating with
+      others to decide the best way forward.
+      </div>
     </header>
   );
 };

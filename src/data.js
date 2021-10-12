@@ -12,6 +12,10 @@ import colors from "./assets/images/colors.svg";
 import react from "./assets/images/logo.svg";
 import notepad from "./assets/images/notepad.svg";
 import symphony from "./assets/images/Symphony.png"
+import sudoku from "./assets/images/sudoku.png"
+import skreamSauce from "./assets/images/summerFellowship.png"
+import grooveBlocks from "./assets/images/grooveBlocks.png"
+import website from "./assets/images/website.png"
 
 
 export const githubUsername = "finnbergquist";
@@ -61,23 +65,30 @@ export const filteredProjects = [
   "Summer-Fellowship",
   "Sudoku-Solver",
   //"StaffScheduler",
-  //"Writing-Simulator",
+  "Writing-Simulator",
+  "Website"
 ];
 
 // List the card images you want to include in the same order as the repos above (alphabetically)
 // There MUST be one image per repo above or the defualt image will be applied
 export const projectData = [
   {
+    image: grooveBlocks,
+  },
+  {
+    image: sudoku,
+  },
+  {
+    image: skreamSauce,
+  },
+  {
     image: symphony,
   },
   {
-    image: react,
+    image: website,
   },
   {
     image: notepad,
-  },
-  {
-    image: symphony,
   },
   
   
