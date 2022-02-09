@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4e54d7f3.chunk.css",
+    "main.js": "/portfolio/static/js/main.02aae82f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.02aae82f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2dacf5b3.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2dacf5b3.js.map",
+    "static/js/2.103657e9.chunk.js": "/portfolio/static/js/2.103657e9.chunk.js",
+    "static/js/2.103657e9.chunk.js.map": "/portfolio/static/js/2.103657e9.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.4e54d7f3.chunk.css.map": "/portfolio/static/css/main.4e54d7f3.chunk.css.map",
+    "static/js/2.103657e9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.103657e9.chunk.js.LICENSE.txt",
+    "static/media/Finn_photo.044ee665.png": "/portfolio/static/media/Finn_photo.044ee665.png",
+    "static/media/index.scss": "/portfolio/static/media/PermanentMarker-Regular.109a10dc.ttf",
+    "static/media/Symphony.39045b3c.png": "/portfolio/static/media/Symphony.39045b3c.png",
+    "static/media/colors.9e7ce844.svg": "/portfolio/static/media/colors.9e7ce844.svg",
+    "static/media/grooveBlocks.738ce897.png": "/portfolio/static/media/grooveBlocks.738ce897.png",
+    "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg",
+    "static/media/notepad.00bfae70.svg": "/portfolio/static/media/notepad.00bfae70.svg",
+    "static/media/sudoku.15023a24.png": "/portfolio/static/media/sudoku.15023a24.png",
+    "static/media/summerFellowship.cd766041.png": "/portfolio/static/media/summerFellowship.cd766041.png",
+    "static/media/website.be492a06.png": "/portfolio/static/media/website.be492a06.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dacf5b3.js",
+    "static/js/2.103657e9.chunk.js",
+    "static/css/main.4e54d7f3.chunk.css",
+    "static/js/main.02aae82f.chunk.js"
+  ]
+}
