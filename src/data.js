@@ -1,4 +1,4 @@
-// https://react-icons.github.io/react-icons/
+
 import {
   FaReact,
   FaGitAlt,
@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 import {DiJava, DiPython} from "react-icons/di";
 
-// Projects Images (add your images to the /assets/images directory and import below)
+// Projects Images 
 import colors from "./assets/images/colors.svg";
 import react from "./assets/images/logo.svg";
 import notepad from "./assets/images/notepad.svg";
@@ -22,7 +22,7 @@ export const githubUsername = "finnbergquist";
 
 /* Skills
  ************************************************************** */
-// Add or remove skills in the SAME format below, there must be one icon imported above per skill below and 3 skills per row
+
 export const skillData = [
   {
     id: 1,
@@ -58,7 +58,7 @@ export const skillData = [
 
 /* Projects
  ************************************************************** */
-// List the repo names you want to include (they will be sorted alphabetically), leave the array empty if you want to include everything
+
 export const filteredProjects = [
   "Symphony",
   "Groove-Blocks",
@@ -69,8 +69,6 @@ export const filteredProjects = [
   "Website"
 ];
 
-// List the card images you want to include in the same order as the repos above (alphabetically)
-// There MUST be one image per repo above or the defualt image will be applied
 export const projectData = [
   {
     image: grooveBlocks,
@@ -97,10 +95,8 @@ export const projectData = [
   
 ];
 
-/* Contact Info
- ************************************************************** */
-// Share the contact info you are comfortable with (no dashes for phone numbers)
-// If no info provided a button with a link to mailchimp will be rendered, update the link if you want to use this option
+
+
 export const contactInfo = {
   email: "fbergqui@bowdoin.edu",
   phone: "857-200-5274",
