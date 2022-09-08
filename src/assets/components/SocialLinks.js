@@ -1,6 +1,7 @@
 // https://react-icons.github.io/react-icons/
 import { FaGithub, FaLink, FaTwitter } from "react-icons/fa";
 
+
 const SocialLinks = ({ githubUrl, link, twitter }) => {
   const twitterLink = `https://twitter.com/${twitter}`;
 

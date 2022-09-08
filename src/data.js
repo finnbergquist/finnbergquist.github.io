@@ -1,9 +1,12 @@
 
 import {
   FaReact,
-  FaGitAlt,
-  FaGithubSquare,
-  FaRaspberryPi
+  FaConfluence,
+  FaAws,
+  FaRaspberryPi,
+  FaRegListAlt,
+  FaProjectDiagram,
+  FaPercentage
 } from "react-icons/fa";
 import {DiJava, DiPython} from "react-icons/di";
 
@@ -16,6 +19,11 @@ import sudoku from "./assets/images/sudoku.png"
 import skreamSauce from "./assets/images/summerFellowship.png"
 import grooveBlocks from "./assets/images/grooveBlocks.png"
 import website from "./assets/images/website.png"
+import fluid_dynamics from './assets/images/fluid_dynamics.png'
+import neural_net from './assets/images/nn.png'
+import markov_chain from './assets/images/mc.png'
+import traffic from './assets/images/traffic.png'
+import qlearn from './assets/images/qlearn.png'
 
 
 export const githubUsername = "finnbergquist";
@@ -41,8 +49,8 @@ export const skillData = [
   },
   {
     id: 4,
-    skill: <FaGithubSquare className="display-4" />,
-    name: "GitHub",
+    skill: <FaAws className="display-4" />,
+    name: "AWS",
   },
   {
     id: 5,
@@ -51,30 +59,56 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <FaGitAlt className="display-4" />,
-    name: "Git",
+    skill: <FaConfluence className="display-4" />,
+    name: "Agile Development",
+  },
+  {
+    id: 7,
+    skill: <FaRegListAlt className="display-4" />,
+    name: "Databases",
+  },
+  {
+    id: 8,
+    skill: <FaProjectDiagram className="display-4" />,
+    name: "AI",
+  },
+  {
+    id: 8,
+    skill: <FaPercentage className="display-4" />,
+    name: "Math",
   }
+
+  
 ];
 
 /* Projects
  ************************************************************** */
 
 export const filteredProjects = [
-  "Symphony",
+  "Stock-Trader-Neural-Net",
   "Groove-Blocks",
   "Summer-Fellowship",
-  "Sudoku-Solver",
+  "fluid_dynamic",
   //"StaffScheduler",
   "Writing-Simulator",
-  "Website"
+  "Website",
+  "Symphony",
+  "traffic_model_simulation",
+  "Stock-Trading-Q-Learner"
 ];
 
 export const projectData = [
   {
+    image: fluid_dynamics,
+  },
+  {
     image: grooveBlocks,
   },
   {
-    image: sudoku,
+    image: neural_net,
+  },
+  {
+    image: qlearn,
   },
   {
     image: skreamSauce,
@@ -83,12 +117,14 @@ export const projectData = [
     image: symphony,
   },
   {
+    image: traffic,
+  },
+  {
     image: website,
   },
   {
-    image: notepad,
-  },
-  
+    image: markov_chain,
+  }
   
 
   

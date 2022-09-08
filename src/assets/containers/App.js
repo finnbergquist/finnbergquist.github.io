@@ -6,6 +6,7 @@ import Skills from "../components/Skills";
 import Projects from "./Projects";
 import Contact from "../components/Contact";
 
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
@@ -54,6 +55,8 @@ const App = () => {
     twitter: data.twitter_username,
   };
 
+
+  
   return (
     <>
       <About theme={theme} setTheme={setTheme} {...homeData} />
