@@ -2,7 +2,7 @@
 
 https://finnbergquist.github.io/
 
-Welcome to my React Portfolio Website! This README file will guide you through the structure, installation, and usage of the project. Whether you're here to explore my work or contribute, this document should provide all the necessary information.
+Welcome to my React Portfolio Website! This is my first website I have created!
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Welcome to my React Portfolio Website! This README file will guide you through t
 
 ## Introduction
 
-This is my personal portfolio website built with React. The purpose of this website is to showcase my skills, projects, and experience to potential employers, collaborators, and clients. It's a single-page application (SPA) designed to provide a seamless and interactive user experience.
+This is my personal portfolio website built with React. The purpose of this website is to showcase my skills, projects, and experience to potential employers, and collaborators. 
 
 ## Features
 
