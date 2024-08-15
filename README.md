@@ -1,7 +1,6 @@
 # Finn Bergquist Portfolio Website
 
 https://finnbergquist.github.io/
-https://github.com/finnbergquist/finnbergquist.github.io
 
 
 Welcome to my React Portfolio Website! This is my first website I have created! I deployed it with github's built in deployment features.
