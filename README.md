@@ -1,6 +1,8 @@
 # Finn Bergquist Portfolio Website
 
 https://finnbergquist.github.io/
+https://github.com/finnbergquist/finnbergquist.github.io
+
 
 Welcome to my React Portfolio Website! This is my first website I have created! I deployed it with github's built in deployment features.
 
@@ -29,7 +31,7 @@ This is my personal portfolio website built with React. The purpose of this webs
 
 - **React**: JavaScript library for building user interfaces.
 - **React Router**: For handling navigation within the app.
-- **Axios**: For making HTTP requests (if applicable).
+- **Axios**: For making HTTP requests.
 - **Styled-components**: For styling the components.
 - **FontAwesome**: For icons.
 
